@@ -92,7 +92,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE.md([https://github.com/pauloandremendes/CadastroCliente/blob/feature/IniciandoProjeto/LICENSE]) para detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE.md](https://github.com/pauloandremendes/CadastroCliente/blob/feature/IniciandoProjeto/LICENSE) para detalhes.
 
 
 
