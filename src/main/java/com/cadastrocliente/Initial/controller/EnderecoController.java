@@ -22,19 +22,4 @@ public class EnderecoController {
         EnderecoDTO endereco = enderecoService.BuscarEndereco(cep);
         return endereco != null ? ResponseEntity.ok().body(endereco) : ResponseEntity.notFound().build();
     }
-
-//    @GetMapping("/ceo")
-//    public EnderecoDTO consultaCep(@PathVariable final String cep){
-//        final EnderecoDTO endereco = enderecoService.BuscarEndereco(cep);
-//        return modelMapper.map(endereco, EnderecoDTO.class);
-//    }
-
-//    @Autowired
-//    private RestTemplate restTemplate;
-//
-//    @GetMapping("/{cep}")
-//    public Endereco getCep(@PathVariable String cep) {
-//        Endereco newCep = restTemplate.getForObject("https://viacep.com.br/ws/" + cep + "/json/", Endereco.class);
-//        return newCep;
-//    }
 }
